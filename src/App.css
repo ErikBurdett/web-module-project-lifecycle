@@ -1,17 +1,35 @@
 .App {
   text-align: center;
+  background-image: url('https://photos.smugmug.com/Bad-Film/i-SGf3PW7/0/1b679288/XL/editedselfdevelopedfilm1-10-XL.jpg')
+}
+
+.userCard {
+  position: relative;
+  width: 300px;
+  height: 360px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  background: rgb(169, 224, 246);
+  overflow: hidden;
+  border-radius: 40px;
+  border-color: black;
+  transition: 0.5s;
+  
 }
 
 .followers-wrapper {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
+  background-color: rgb(251, 230, 106);
 }
 
 .follower-card {
   width: 120px;
   margin: 16px 32px;
   padding: 16px;
+  background:royalblue;
+  border-radius: 40px;
   /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); */
 }
 
@@ -19,3 +37,7 @@
   /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); */
 }
 
+.title {
+  background-color:rgb(251, 230, 106);
+  color: black;
+}
